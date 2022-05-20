@@ -1,0 +1,67 @@
+@import "./normalize.css";
+/* 导入修改vant框架样式文件 */
+@import "./modifyVantCss.css";
+/* 导入字体样式 */
+@import "./iconfont.css";
+
+:root {
+  --color-text: #666;
+  --color-high: #f88358;
+  --color-tint: #74c0b4;
+  --color-background: #fff;
+  --font-size: 14px;
+  --line-height: 1.5;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  /* 禁止用户选中文件或者图片 */
+  user-select: none;
+  background: var(--color-background);
+  color: var(--color-text);
+  width: 100vw;
+  /* background-color: #f6f5f0; */
+}
+img {
+  width: 100%;
+  height: 100%;
+}
+
+a {
+  color: var(--color-text);
+  text-decoration: none;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+/* flex布局剧中 */
+.flexCenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* 超出省略隐藏 */
+.ellipsis {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/* 进度条文字颜色 */
+.van-circle__text {
+  color: #f88358 !important;
+}

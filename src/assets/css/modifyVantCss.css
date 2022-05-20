@@ -1,0 +1,77 @@
+ /* 折叠屏内边距 */
+ .van-collapse-item__content {
+   padding: 0 0 0 12px !important;
+ }
+
+ /* 侧导航栏的样式 */
+ .van-sidebar-item--select::before {
+   background-color: var(--color-high);
+
+ }
+
+ .van-sidebar-item--select {
+   color: var(--color-high) !important;
+ }
+
+ /* 商品卡片样式 */
+ .van-card {
+   padding: 8px !important;
+ }
+
+ /* 标签tag样式 */
+ .van-tag--danger {
+   background-color: var(--color-high);
+ }
+
+
+ /* 表单样式 */
+ .van-field__error-message {
+   color: var(--color-high);
+ }
+
+ .van-field__control {
+   border-bottom: 1px solid #ccc;
+   padding-left: 5px;
+ }
+
+ /* 右滑删除样式 */
+ .van-swipe-cell__right {
+   padding: 10px 0 !important;
+ }
+
+ /* 地址列表样式 */
+ .van-address-item .van-radio__icon--checked .van-icon {
+   background-color: var(--color-high);
+   border-color: var(--color-high);
+ }
+
+ .van-address-list__add {
+   background-color: var(--color-high);
+   border-color: var(--color-high);
+   border-radius: 10px;
+   margin-bottom: 20px;
+ }
+
+ .van-button--danger {
+   background-color: var(--color-high);
+   border-color: var(--color-high);
+ }
+ .van-address-edit__buttons .van-button {
+   border-radius: 10px;
+ }
+
+ /* 确认框 */
+ .van-dialog__confirm,
+ .van-dialog__confirm:active {
+   color: var(--color-high);
+ }
+ /* 开关框 */
+ .van-switch--on {
+   background-color: #45ae9e;
+ }
+
+ /* 提交订单 */
+ .van-submit-bar__price {
+   color: var(--color-high);
+   font-weight: 700;
+ }
